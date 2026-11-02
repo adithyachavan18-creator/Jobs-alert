@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Helper | Live Updates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="ASC"> website creator ASC</div>
+        <div class="logo">STUDENT<span>HELPER</span></div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#jobs">Jobs</a>
+            <a href="#internships">Internships</a>
+            <a href="#scholarships">Scholarships</a>
+            <a href="#news">Education News</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="live-label">● LIVE UPDATE CENTER</span>
+            <h1>Your Future.<br>
+                <span>Your Opportunities.</span>
+            </h1>
+            <p>
+                Discover jobs, internships, scholarships
+                and the latest education updates in one place.
+            </p>
+            <a href="#updates" class="main-btn">Explore Updates →</a>
+        </div>
+        <div class="hero-circle">🚀</div>
+    </section>
+
+    <section class="updates" id="updates">
+
+        <div class="section-heading">
+            <span>STUDENT HELPER NETWORK</span>
+            <h2>Latest <span>Opportunities</span></h2>
+            <p>Explore useful opportunities from trusted sources.</p>
+        </div>
+
+        <div class="categories">
+            <a href="#jobs">💼 Jobs</a>
+            <a href="#internships">💻 Internships</a>
+            <a href="#scholarships">🎓 Scholarships</a>
+            <a href="#news">📰 Education News</a>
+        </div>
+
+        <!-- JOBS -->
+
+        <div class="category-section" id="jobs">
+            <h2>💼 Latest Job Vacancies</h2>
+            <p class="description">Explore government and private job opportunities.</p>
+
+            <div class="card-container">
+
+                <div class="update-card">
+                    <span class="tag">JOB PORTAL</span>
+                    <h3>National Career Service</h3>
+                    <p>Explore employment opportunities across India.</p>
+                    <a href="https://www.ncs.gov.in/" target="_blank">Explore Jobs ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">GOVERNMENT</span>
+                    <h3>SSC Recruitment</h3>
+                    <p>Visit the official SSC website for recruitment notices.</p>
+                    <a href="https://ssc.gov.in/" target="_blank">Official Website ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">PRIVATE JOBS</span>
+                    <h3>LinkedIn Jobs</h3>
+                    <p>Discover company vacancies and entry-level jobs.</p>
+                    <a href="https://www.linkedin.com/jobs/" target="_blank">Find Jobs ↗</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- INTERNSHIPS -->
+
+        <div class="category-section" id="internships">
+            <h2>💻 Internship Opportunities</h2>
+            <p class="description">Build experience while studying.</p>
+
+            <div class="card-container">
+
+                <div class="update-card">
+                    <span class="tag">STUDENTS</span>
+                    <h3>AICTE Internships</h3>
+                    <p>Explore internship opportunities for students.</p>
+                    <a href="https://internship.aicte-india.org/" target="_blank">Explore Internships ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">TECHNOLOGY</span>
+                    <h3>Internshala</h3>
+                    <p>Discover internships in coding, AI and technology.</p>
+                    <a href="https://internshala.com/" target="_blank">Find Internships ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">GLOBAL</span>
+                    <h3>LinkedIn Internships</h3>
+                    <p>Find internships from different companies.</p>
+                    <a href="https://www.linkedin.com/jobs/internship-jobs/" target="_blank">Explore Now ↗</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- SCHOLARSHIPS -->
+
+        <div class="category-section" id="scholarships">
+            <h2>🎓 Scholarship Updates</h2>
+            <p class="description">Find financial support for your education.</p>
+
+            <div class="card-container">
+
+                <div class="update-card">
+                    <span class="tag">GOVERNMENT</span>
+                    <h3>National Scholarship Portal</h3>
+                    <p>Check central government scholarship schemes.</p>
+                    <a href="https://scholarships.gov.in/" target="_blank">Check Scholarships ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">KARNATAKA</span>
+                    <h3>Karnataka SSP</h3>
+                    <p>Visit the state scholarship portal for student schemes.</p>
+                    <a href="https://ssp.postmatric.karnataka.gov.in/" target="_blank">Visit SSP ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">PRIVATE</span>
+                    <h3>Reliance Foundation</h3>
+                    <p>Explore scholarship information and eligibility.</p>
+                    <a href="https://www.reliancefoundation.org/" target="_blank">Learn More ↗</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- EDUCATION NEWS -->
+
+        <div class="category-section" id="news">
+            <h2>📰 Education News</h2>
+            <p class="description">Follow official education announcements.</p>
+
+            <div class="card-container">
+
+                <div class="update-card">
+                    <span class="tag">NATIONAL</span>
+                    <h3>Ministry of Education</h3>
+                    <p>Read education policies and government announcements.</p>
+                    <a href="https://www.education.gov.in/" target="_blank">Read Updates ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">EXAM UPDATES</span>
+                    <h3>National Testing Agency</h3>
+                    <p>Check examination notifications and announcements.</p>
+                    <a href="https://nta.ac.in/" target="_blank">Visit NTA ↗</a>
+                </div>
+
+                <div class="update-card">
+                    <span class="tag">TECHNICAL EDUCATION</span>
+                    <h3>AICTE</h3>
+                    <p>Explore technical education notices and updates.</p>
+                    <a href="https://www.aicte-india.org/" target="_blank">Read More ↗</a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="notice">
+        <h2>Stay Updated. Stay Ahead.</h2>
+        <p>Always verify eligibility, deadlines and notifications on the official website before applying.</p>
+    </section>
+
+    <footer>
+        <h2>STUDENT<span>HELPER</span></h2>
+        <p>Your Learning. Your Career. Your Future.</p>
+        <p class="copyright">© 2026 Student helper | All Rights Reserved</p>
+        <p> ASCcreator</p>
+    </footer>
+
+</body>
+
+</html>
